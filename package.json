@@ -1,0 +1,41 @@
+{
+  "name": "demo-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@localazy/strapi-plugin": "^0.1.7",
+    "@offset-dev/strapi-calendar": "^0.0.7",
+    "@strapi/plugin-i18n": "4.2.2",
+    "@strapi/plugin-seo": "^1.7.4",
+    "@strapi/plugin-users-permissions": "4.2.2",
+    "@strapi/strapi": "4.2.2",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0",
+    "strapi-plugin-custom-api": "^1.0.3",
+    "strapi-plugin-deepl": "^0.3.7",
+    "strapi-plugin-generate-data": "^1.0.10",
+    "strapi-plugin-placeholder": "^4.1.7",
+    "strapi-plugin-preview-button": "^0.3.4",
+    "strapi-plugin-react-editorjs": "^2.0.1",
+    "strapi-plugin-vercel-deploy": "^1.3.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "757aaca0-acdb-492c-bb35-b235fb4d09fc"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
